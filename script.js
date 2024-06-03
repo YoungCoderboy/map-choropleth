@@ -11337,7 +11337,7 @@ info.onAdd = function (map) {
 info.update = function (props) {
     this._div.innerHTML = '<h4> Crime Density</h4>' +  (props ?
         '<b>' + props.Name2 + '</b><br />' + props.density + ' crime / mi<sup>2</sup>'
-        : 'Hover over a state');
+        : 'Hover over a state');\
 };
 
 info.addTo(map);
